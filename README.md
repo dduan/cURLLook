@@ -34,3 +34,8 @@ The usual way:
     target 'MyApp' do
       pod 'cURLLook'
     end
+
+# Credit
+
+The code is an adaption from
+[Alamofile](https://github.com/Alamofire/Alamofire)
