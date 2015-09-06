@@ -15,3 +15,22 @@ print(request.cURLRepresentation(withURLSession: aSession))
 print(request.cURLString)
 
 ```
+
+# Install
+
+## Carthage (recommended)
+
+Include the following in your Cartfile:
+
+    github "dduan/cURLLook"
+
+## Cocoapods
+
+The usual way:
+
+    platform :ios, '8.0'
+    use_frameworks!
+
+    target 'MyApp' do
+      pod 'cURLLook'
+    end
