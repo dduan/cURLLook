@@ -12,7 +12,7 @@ extension NSURLRequest {
     /**
         Convenience property, the value of calling `cURLRepresentation()` with no arguments.
     */
-    var cURLString: String {
+    public var cURLString: String {
         get {
             return cURLRepresentation()
         }
@@ -29,7 +29,7 @@ extension NSURLRequest {
 
     - Returns:              a string whose value is a cURL command that would perform the same HTTP request this object represents.
     */
-    func cURLRepresentation(withURLSession session: NSURLSession? = nil, credential: NSURLCredential? = nil) -> String {
+    public func cURLRepresentation(withURLSession session: NSURLSession? = nil, credential: NSURLCredential? = nil) -> String {
         var components = ["curl -i"]
 
         let URL = self.URL
