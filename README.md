@@ -24,7 +24,7 @@ Include the following in your Cartfile:
 
     github "dduan/cURLLook"
 
-## Cocoapods
+## CocoaPods
 
 The usual way:
 
