@@ -42,7 +42,7 @@ extension NSURLRequest {
             let protectionSpace = NSURLProtectionSpace(
                 host: URL!.host!,
                 port: URL!.port?.integerValue ?? 0,
-                `protocol`: URL!.scheme,
+                protocol: URL!.scheme,
                 realm: URL!.host!,
                 authenticationMethod: NSURLAuthenticationMethodHTTPBasic
             )
