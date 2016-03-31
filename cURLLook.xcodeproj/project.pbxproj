@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		94ABF6DD1B9BB5F9009A22E3 /* cURLLook-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 94ABF6DC1B9BB5F9009A22E3 /* cURLLook-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94ABF6EA1B9BB623009A22E3 /* cURLLook-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 94ABF6E91B9BB623009A22E3 /* cURLLook-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94ABF6EF1B9BB62B009A22E3 /* NSURLRequestCURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABF6D31B9BB3A0009A22E3 /* NSURLRequestCURLRepresentation.swift */; settings = {ASSET_TAGS = (); }; };
-		94ABF6F01B9BB62B009A22E3 /* NSURLRequestCURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABF6D31B9BB3A0009A22E3 /* NSURLRequestCURLRepresentation.swift */; settings = {ASSET_TAGS = (); }; };
+		94ABF6EF1B9BB62B009A22E3 /* NSURLRequestCURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABF6D31B9BB3A0009A22E3 /* NSURLRequestCURLRepresentation.swift */; };
+		94ABF6F01B9BB62B009A22E3 /* NSURLRequestCURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABF6D31B9BB3A0009A22E3 /* NSURLRequestCURLRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -314,6 +314,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "cURLLook-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.dduan.cURLLook-iOS";
 				PRODUCT_NAME = cURLLook;
@@ -330,6 +331,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "cURLLook-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.dduan.cURLLook-iOS";
 				PRODUCT_NAME = cURLLook;
@@ -396,6 +398,7 @@
 				94ABF6E11B9BB5F9009A22E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94ABF6EC1B9BB623009A22E3 /* Build configuration list for PBXNativeTarget "cURLLook-OSX" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +407,7 @@
 				94ABF6EE1B9BB623009A22E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
