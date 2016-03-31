@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "cURLLook"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Make your NSURLRequest a cURL command"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "Daniel Duan" => "daniel@duan.org" }
   s.social_media_url   = "https://twitter.com/Daniel_Duan"
 
-   s.ios.deployment_target = "9.0"
+   s.ios.deployment_target = "8.0"
    s.osx.deployment_target = "10.10"
 
   s.source       = { :git => "https://github.com/dduan/cURLLook.git", :tag => "v#{s.version}" }
